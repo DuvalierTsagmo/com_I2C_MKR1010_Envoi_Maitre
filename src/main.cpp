@@ -9,9 +9,11 @@
 #include <Arduino.h>
 #include <Wire.h>
 
+// Declaration des variables
 const int Potentiometre_PIN = A1;
 int EnvoiDonnee = 0;
 
+// les focntions developper
 void setup()
 {
     Wire.begin();
